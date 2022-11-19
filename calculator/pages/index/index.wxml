@@ -1,0 +1,39 @@
+<!-- pages/index/index.wxml -->
+ 
+<view class='screen'>
+{{result}}
+</view>
+ 
+<view class='box'>
+  <view class='btnGroup'>
+    <view class='item pink' bindtap='clickButton' id="{{back}}">退格</view>
+    <view class='item pink' bindtap='clickButton' id="{{C}}">AC</view>
+    <view class='item pink' bindtap='clickButton' id="{{addSub}}">+/-</view>
+    <view class='item pink' bindtap='clickButton' id="{{div}}">÷</view>
+  </view>
+  <view class='btnGroup'>
+    <view class='item green' bindtap='clickButton' id="{{number1}}">1</view>
+    <view class='item green' bindtap='clickButton' id="{{number2}}">2</view>
+    <view class='item green' bindtap='clickButton' id="{{number3}}">3</view>
+    <view class='item pink' bindtap='clickButton' id="{{add}}">+</view>
+  </view>
+  <view class='btnGroup'>
+    <view class='item green' bindtap='clickButton' id="{{number4}}">4</view>
+    <view class='item green' bindtap='clickButton' id="{{number5}}">5</view>
+    <view class='item green' bindtap='clickButton' id="{{number6}}">6</view>
+    <view class='item pink' bindtap='clickButton' id="{{sub}}">-</view>
+  </view>
+  <view class='btnGroup'>
+    <view class='item green' bindtap='clickButton' id="{{number7}}">7</view>
+    <view class='item green' bindtap='clickButton' id="{{number8}}">8</view>
+    <view class='item green' bindtap='clickButton' id="{{number9}}">9</view>
+    <view class='item pink' bindtap='clickButton' id="{{mut}}">×</view>
+  </view>
+  <view class='btnGroup'>
+    <view class='item green' bindtap='clickButton' id="{{percent}}">%</view>
+    <view class='item green' bindtap='clickButton' id="{{number0}}">0</view>
+    <view class='item green' bindtap='clickButton' id="{{dot}}">.</view>
+    <view class='item pink' bindtap='clickButton' id="{{equ}}">=</view>
+  </view>
+ 
+</view>
